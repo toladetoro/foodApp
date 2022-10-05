@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@200;400;600;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.food{
+    display: flex;
+    width: 100%;
+}
+
+.menuicon
+{
+position: absolute;
+width: 132px;
+height: 852px;
+left: 50px;
+top: 100px;
+background: #0C0B0B;
+border-radius: 24px;
+}
+
+
+
+.icon h1{
+  
+    font-family: 'Baloo Bhai';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 70px;
+    line-height: 102px;
+    /* identical to box height */
+    color: #F1D5BB;  
+    position: absolute;
+    width: 132px;
+    height: 852px;
+    left: 45px;
+    top: 25px;
+}
+
+.icon img{
+    display: grid;
+    width: 50px;
+    height: 40px;
+    position: absolute;
+    width: 50x;
+    height: 48px;
+    left: 40px;
+    top: 169px;
+}
+
+.icon5 img{
+    position: absolute;
+    width: 132px;
+    top: 300px;   
+}
+
+.icon1 img{
+    
+        position: absolute;
+        width: 90px;
+        height: 60px;
+        top: 330px;
+        left: 20px; 
+}
+
+.icon2 img{
+        position: absolute;
+        width: 110px;
+        height: 100px;
+        top: 480px;
+        left: 8px; 
+}
+
+.icon3 img{
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    top: 610px;
+    left: 25px; 
+}
+
+.icon4 img{
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    top: 760px;
+    left: 49px; 
+}
+
+
+.items{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  padding: 200px 250px;  
+  grid-column-gap: 40px;
+  grid-row-gap: 40px;
+}
+
+    .item img{
+        cursor: pointer;
+    }
+
+    .item h6{
+        padding: 5px;
+        text-align: center;
+        font-family: 'Mulish';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 25px;
+        /* identical to box height */
+        color: #000000;
+    }
+
+    .click{
+  text-align: center;
+       
+    }
+
+button{
+    position: absolute;
+    width: 194px;
+    height: 54px;
+    left: 676px;
+    top: 900px;
+    background: #000000;
+    border-radius: 2px;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 25px;
+    /* identical to box height */
+    color: white
+}
+
+.content{
+    position: absolute;
+    top: 24%;
+    left: 27%;
+    transform: translate(-50%,-50% );
+}
+
+.line{
+    position: absolute;
+    top: 27%;
+    left: 27%;
+    transform: translate(-50%,-50% );
+}
+.line img{
+    width: 212px;
+}
+
+
+.content h1{
+    
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 63px;
+    /* identical to box height */
+    color: #000000;
+}
+
+.copyright{
+    position: absolute;
+    width: 250px;
+    height: 19px;
+    left: 270px;
+    top: 1000px;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 19px;
+    /* identical to box height */
+    color: #000000;
+
+}
